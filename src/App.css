@@ -1,0 +1,27 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 20px;
+}
+
+thead {
+    cursor: pointer;
+    background: lightslategray;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.selected {
+    padding: 5px;
+    margin:15px 0;
+    background: lightgray;
+    border-radius: 8px;
+}
