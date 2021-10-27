@@ -3,7 +3,7 @@ import {makeAutoObservable} from 'mobx'
 export default class TableStore {
     constructor() {
         this._data = []
-        this._filteredData = this.data
+        this._filteredData = []
         this._identifiers = {}
         this._sortBy = '0'
         this._sortByIncrease = true
